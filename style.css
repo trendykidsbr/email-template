@@ -13,11 +13,11 @@ body{
   /*border: 1px solid red;*/
   width: 80%;
   margin: auto;
-  background-color: white;
   margin-top: 20px;
+  background-color: white;
 }
 header{
-  background-color: #162FB0;
+  background-color: #1837ce;
 }
 header h1{
   font-family: 'PT Serif', serif;
@@ -72,11 +72,15 @@ article p{
   border-radius: 30px;
 }
 
-.numeros{
-  margin-top: 30px;
+.numeros, .parcerias{
+  margin-top: 50px;
 }
-.numeros h1{
+.numeros h1, .parcerias h1{
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   font-size: 4em;
+}
+
+.parcerias{
+  padding-bottom: 40px;
 }
