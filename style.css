@@ -7,12 +7,13 @@
 }
 
 body{
-  background-color: rgb(179, 179, 179);
+  background-color: #aed2ff;
 }
 
 .container{
   /*border: 1px solid red;*/
-  width: 1000px;
+  max-width: 1000px;
+  width: 90%;
   margin: auto;
   margin-top: 20px;
   background-color: white;
@@ -44,11 +45,10 @@ header h1{
 }
 
 #imagem1{
-  background-color: red;
   height: 200px;
   margin: 10px 0px;
-
 }
+
 
 p{
   font-family: 'Open Sans', sans-serif;
@@ -71,13 +71,22 @@ article p{
   margin-bottom: 10px;
 }
 
-#primary-img{
-  /*border: 1px solid red;*/
-  /*height: 25vh;*/
+#primary-div{
+  
+  display: flex;
+  justify-content: space-around;
+  
+
   margin: 30px auto;
-  height: 300px;
-  background-color: green;
 }
+#primary-div div{
+  background: url('bg-img1.jpg');
+  align-self: center;
+  width: 540px;
+  height: 540px;
+}
+
+
 
 #circulo-amarelo{
   background-color: yellow;
@@ -119,7 +128,7 @@ article p{
 
 footer{
   background-color: #02198d;
-  padding: 20px 20px 60px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 
@@ -132,7 +141,6 @@ footer{
 }
 .social-media li, .contato li {
   list-style: none;
-	padding: 2px;
 }
 
 .social-media li a img, .contato li a img {
@@ -146,7 +154,7 @@ footer{
 }
 .social-media li a p, .contato li a p{
   color: white;
-  margin-top: 14px;
+  margin-top: 14px
 }
 .social-media li a p:hover, .contato li a p:hover{
   text-decoration: underline;
@@ -157,6 +165,6 @@ footer{
 
 
 .contato p{
-  margin-top: 30px;
+  margin-top: 10px;
   color: white;
 }
