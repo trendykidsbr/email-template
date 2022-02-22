@@ -121,6 +121,12 @@ article p{
   font-size: 4em;
 }
 
+.request h1{
+  font-family: 'Damion', cursive;
+  font-size: 2.8em;
+  text-align: center;
+}
+
 .parcerias, .request{
   padding-bottom: 40px;
 }
@@ -164,7 +170,14 @@ footer{
 }
 
 
+.request h1{
+  font-size: 4em;
+}
+
+
 .contato p{
   margin-top: 10px;
   color: white;
 }
+
+
